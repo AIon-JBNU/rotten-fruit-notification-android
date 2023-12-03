@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "753656290051",
+    "project_id": "capstone-project-406412",
+    "storage_bucket": "capstone-project-406412.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753656290051:android:ebeeb69a5a2ea2c04de736",
+        "android_client_info": {
+          "package_name": "dev.s0n9.rottenfruitnotification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEzHKiv3Mf3abVEwApHlNGpv_2nFp-TI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
