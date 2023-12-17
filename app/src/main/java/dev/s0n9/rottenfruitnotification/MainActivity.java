@@ -9,20 +9,14 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.widget.EditText;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private EditText token;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        token = findViewById(R.id.token);
-
-        MyApplication.LISTENER = () -> token.setText(MyApplication.FCM_TOKEN);
+        //MyApplication.LISTENER = () -> token.setText(MyApplication.FCM_TOKEN);
 
         askNotificationPermission();
 
